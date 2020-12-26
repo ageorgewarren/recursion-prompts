@@ -301,7 +301,7 @@
 
     describe('6. Integer Range', function() {
       var originalRange;
-
+      
       before(function() {
         originalRange = range;
         range = sinon.spy(range);
